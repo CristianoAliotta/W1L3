@@ -28,3 +28,19 @@ div {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+div p {
+  /* selettore di p dentro div */
+}
+
+div > p {
+  /* primi figli di p  */
+}
+
+div + p {
+  /* il p adiacente a divi e div  */
+}
+
+div * {
+  /* tutti i figli di div  */
+}
